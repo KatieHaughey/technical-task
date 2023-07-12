@@ -1,0 +1,59 @@
+:root {
+  --branding-color-1: #f38089;
+  --branding-color-2: #9263cb;
+  --branding-color-3: #6dc9c9;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.content-container {
+  padding: 20px 70px;
+}
+
+header {
+  background-image: url(/images/banner.jpg);
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 55px;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: var(--branding-color-3);
+}
+
+h3 {
+  color: white;
+}
+
+h5 {
+  margin: 18px;
+}
+
+#logo {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.more-info {
+  background-color: var(--branding-color-2);
+  text-align: center;
+  color: white;
+  padding: 12px;
+}
+
+.safety {
+  color: var(--branding-color-2);
+}
+
+.friendship {
+  color: var(--branding-color-1);
+}
+
+.fresh-start {
+  color: var(--branding-color-3);
+}
