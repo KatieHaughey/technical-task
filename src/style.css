@@ -37,6 +37,12 @@ nav a {
   text-decoration: none;
   color: white;
   font-family: Montserrat-SemiBold;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--branding-color-3);
 }
 
 header {
@@ -53,7 +59,7 @@ footer {
 
 h1 {
   font-size: 17px;
-  font-family: Lato-Black;
+  font-family: Lato-Bold;
   margin-top: 30px;
   margin-bottom: 20px;
   opacity: 60%;
@@ -114,6 +120,10 @@ p {
   text-decoration: none;
 }
 
+.read-more:hover {
+  text-decoration: underline;
+}
+
 .safety {
   color: var(--branding-color-2);
 }
@@ -132,4 +142,9 @@ p {
   max-width: 25px;
   margin-left: 8px;
   margin-top: 15px;
+  transition: all 100ms ease-in-out;
+}
+
+.social-media-icon:hover {
+  background-color: var(--branding-color-2);
 }
