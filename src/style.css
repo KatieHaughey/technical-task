@@ -9,8 +9,34 @@
   margin: 0 auto;
 }
 
+.nav-container {
+  padding: 0 80px;
+}
+
 .content-container {
   padding: 20px 80px;
+}
+
+nav {
+  background-color: var(--branding-color-1);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  margin-right: 35px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: Montserrat-SemiBold;
 }
 
 header {
@@ -19,7 +45,6 @@ header {
   background-size: 100%;
   background-repeat: no-repeat;
   padding: 60px;
-  margin-top: 50px;
 }
 
 footer {
