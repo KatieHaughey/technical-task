@@ -9,12 +9,12 @@
   margin: 0 auto;
 }
 
-.nav-container {
-  padding: 0 80px;
-}
-
 .content-container {
   padding: 20px 80px;
+}
+
+.nav-container {
+  padding: 0 80px;
 }
 
 nav {
@@ -27,10 +27,10 @@ nav ul {
 }
 
 nav li {
-  display: inline;
+  display: inline-flex;
   list-style: none;
-  line-height: 50px;
-  margin-right: 35px;
+  padding: 8px;
+  margin-right: 16px;
 }
 
 nav a {
@@ -40,9 +40,8 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-nav a:hover,
-nav a.active {
-  color: var(--branding-color-3);
+nav li:hover {
+  background-color: #f2aeb2;
 }
 
 header {
@@ -141,7 +140,7 @@ p {
   border-radius: 50px;
   max-width: 25px;
   margin-left: 8px;
-  margin-top: 15px;
+  margin-top: 8px;
   transition: all 100ms ease-in-out;
 }
 
