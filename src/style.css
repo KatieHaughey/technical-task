@@ -77,20 +77,21 @@ h6 {
   font-family: Montserrat-SemiBold;
 }
 
-h2 {
+h2,
+h4 {
   font-size: 18px;
+}
+
+h2 {
   font-family: Montserrat-Medium;
   margin: 0;
 }
 
 h4 {
   color: white;
-  font-family: Montserrat-SemiBold;
-  font-size: 18px;
 }
 
 h5 {
-  font-family: Montserrat-SemiBold;
   font-size: 16px;
   margin: 18px;
 }
@@ -153,7 +154,7 @@ p {
   background-color: var(--branding-color-2);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 952px) {
   h1,
   h2,
   h3,
@@ -173,12 +174,16 @@ p {
     font-size: 16px;
   }
 
+  h4 {
+    font-size: 14px;
+  }
+
   p {
     font-size: 16px;
   }
 
   .grid p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .grid-icon {
@@ -209,6 +214,13 @@ p {
 
   header {
     padding: 30px;
+  }
+
+  nav li {
+    font-size: 12px;
+    padding: 4px;
+    margin-right: 8px;
+    line-height: 14px;
   }
 
   footer h4 {
