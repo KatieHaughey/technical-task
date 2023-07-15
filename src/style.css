@@ -31,6 +31,7 @@ nav li {
   list-style: none;
   padding: 8px;
   margin-right: 16px;
+  line-height: 28px;
 }
 
 nav a {
@@ -42,6 +43,10 @@ nav a {
 
 nav li:hover {
   background-color: #f2aeb2;
+}
+
+nav .social-media-icon {
+  margin-top: 10px;
 }
 
 header {
@@ -140,10 +145,77 @@ p {
   border-radius: 50px;
   max-width: 25px;
   margin-left: 8px;
-  margin-top: 8px;
+  margin-top: 15px;
   transition: all 100ms ease-in-out;
 }
 
 .social-media-icon:hover {
   background-color: var(--branding-color-2);
+}
+
+@media (max-width: 900px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .grid p {
+    font-size: 14px;
+  }
+
+  .grid-icon {
+    margin-top: 25px;
+  }
+
+  #logo {
+    width: 302px;
+    margin-left: 20px;
+  }
+
+  .more-info {
+    padding: 5px;
+  }
+
+  .read-more {
+    font-size: 14px;
+  }
+
+  #logo {
+    width: 150px;
+    margin: 0;
+  }
+
+  .content-container {
+    padding: 20px;
+  }
+
+  header {
+    padding: 30px;
+  }
+
+  footer h4 {
+    text-align: center;
+  }
+
+  footer .social-media-icons {
+    text-align: center;
+  }
 }
