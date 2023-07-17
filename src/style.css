@@ -147,7 +147,7 @@ p {
   background-color: var(--branding-color-2);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   h1,
   h2,
   h3,
