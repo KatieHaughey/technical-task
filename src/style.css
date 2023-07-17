@@ -221,4 +221,12 @@ p {
   footer .social-media-icons {
     text-align: center;
   }
+
+  footer .social-media-icon {
+    margin-top: 0;
+  }
+
+  footer .content-container {
+    padding: 10px;
+  }
 }
