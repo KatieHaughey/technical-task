@@ -7,7 +7,7 @@
 }
 
 .container {
-  max-width: 1125px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -37,7 +37,15 @@ header {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 60px 80px;
+  padding: 120px 80px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+main {
+  background-color: white;
 }
 
 main p a.friendship:hover {
@@ -208,7 +216,7 @@ p {
   }
 
   header {
-    padding: 30px;
+    padding: 60px 30px;
   }
 
   nav li {
