@@ -3,7 +3,7 @@
   --branding-color-2: #9263cb;
   --branding-color-3: #6dc9c9;
   --primary-font: "Lato", sans-serif;
-  --secondary-font-regular: "Montserrat", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
 }
 
 .container {
@@ -32,22 +32,8 @@ nav li {
   font-family: var(--secondary-font);
 }
 
-nav a,
-footer a {
-  text-decoration: none;
-}
-
-footer a {
-  color: black;
-  opacity: 0.8;
-}
-
-footer a:hover {
-  color: var(--branding-color-2);
-}
-
 header {
-  background-image: url(/images/banner.jpg);
+  background-image: url(../images/banner.jpg);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,6 +46,20 @@ main p a.friendship:hover {
 
 footer {
   background-color: var(--branding-color-3);
+}
+
+nav a,
+footer a {
+  text-decoration: none;
+}
+
+footer a {
+  color: black;
+  opacity: 0.8;
+}
+
+footer a:hover {
+  color: var(--branding-color-2);
 }
 
 h2 {
@@ -85,16 +85,13 @@ h6 {
   font-weight: bold;
 }
 
-h4 {
-  font-size: 18px;
-}
-
 h3 {
   font-family: var(--secondary-font);
   margin: 0;
 }
 
 h4 {
+  font-size: 18px;
   color: white;
 }
 
@@ -191,11 +188,6 @@ p {
 
   .grid-icon {
     margin-top: 25px;
-  }
-
-  #logo {
-    width: 302px;
-    margin-left: 20px;
   }
 
   .more-info {
