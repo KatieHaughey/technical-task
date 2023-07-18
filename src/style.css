@@ -2,10 +2,8 @@
   --branding-color-1: #f38089;
   --branding-color-2: #9263cb;
   --branding-color-3: #6dc9c9;
-  --primary-font-regular: Lato-Regular;
-  --primary-font-bold: Lato-Bold;
-  --secondary-font-regular: Montserrat-Medium;
-  --secondary-font-bold: Montserrat-SemiBold;
+  --primary-font: "Lato", sans-serif;
+  --secondary-font-regular: "Montserrat", sans-serif;
 }
 
 .container {
@@ -31,12 +29,21 @@ nav .social-media-icon {
 
 nav li {
   margin-right: 24px;
-  font-family: var(--secondary-font-bold);
+  font-family: var(--secondary-font);
 }
 
 nav a,
 footer a {
   text-decoration: none;
+}
+
+footer a {
+  color: black;
+  opacity: 0.8;
+}
+
+footer a:hover {
+  color: var(--branding-color-2);
 }
 
 header {
@@ -55,29 +62,35 @@ footer {
   background-color: var(--branding-color-3);
 }
 
-h1 {
+h2 {
   font-size: 17px;
-  font-family: var(--primary-font-bold);
+  font-family: var(--primary-font);
+  font-weight: bold;
   margin-top: 30px;
   margin-bottom: 20px;
   opacity: 60%;
 }
 
-h2,
-h3,
+h3 {
+  font-family: var(--secondary-font);
+  font-size: 19px;
+  letter-spacing: 0.5px;
+}
+
+nav li,
 h4,
 h5,
 h6 {
-  font-family: var(--secondary-font-bold);
+  font-family: var(--secondary-font);
+  font-weight: bold;
 }
 
-h2,
 h4 {
   font-size: 18px;
 }
 
-h2 {
-  font-family: var(--secondary-font-regular);
+h3 {
+  font-family: var(--secondary-font);
   margin: 0;
 }
 
@@ -93,12 +106,12 @@ h5 {
 p {
   opacity: 60%;
   line-height: 1.2;
-  font-family: var(--primary-font-regular);
+  font-family: var(--primary-font);
   font-size: 17px;
 }
 
 .grid p {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 #logo {
@@ -113,8 +126,8 @@ p {
 }
 
 .read-more {
-  font-family: var(--primary-font-bold);
-  font-size: 14px;
+  font-family: var(--primary-font);
+  font-size: 15px;
   text-decoration: none;
 }
 
@@ -148,7 +161,6 @@ p {
 }
 
 @media (max-width: 768px) {
-  h1,
   h2,
   h3,
   h4,
@@ -158,13 +170,13 @@ p {
     text-align: center;
   }
 
-  h1 {
+  h2 {
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 15px;
   }
 
-  h2 {
+  h3 {
     font-size: 14px;
   }
 
